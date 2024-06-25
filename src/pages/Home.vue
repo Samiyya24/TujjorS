@@ -1,10 +1,12 @@
 <script setup>
+import Intro from "../components/Intro.vue";
 import Navbar from "../components/Navbar.vue";
-import Category from "../components/Category.vue";
 </script>
 <template>
-  <div><Navbar/></div>  
-  <div><Category/></div>  
+  <div>
+    <Navbar />
+    <Intro />
+  </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped lang="scss"></style>
